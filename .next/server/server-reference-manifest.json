@@ -1,0 +1,38 @@
+{
+  "node": {
+    "c19a3aa06bc6e0f797034f732b3fa3ee6dc3c36a": {
+      "workers": {
+        "app/[[...sign-in]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2FDashboard_UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[[...sign-in]]/page": "rsc"
+      }
+    },
+    "c945533de4fd65656f68a01f4b0b29538b6b0bcf": {
+      "workers": {
+        "app/[[...sign-in]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2FDashboard_UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[[...sign-in]]/page": "rsc"
+      }
+    },
+    "f6a128a8aee0f58a7258c93820f133bf1a8f2c5d": {
+      "workers": {
+        "app/[[...sign-in]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2FDashboard_UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[[...sign-in]]/page": "rsc"
+      }
+    },
+    "362305b198ce373833fa4d59a8a999cee3487399": {
+      "workers": {
+        "app/[[...sign-in]]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2FDashboard_UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[[...sign-in]]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "glOvc1aQyb6uqAyOX3JXi6UoAcORpC+pJTnXN8RkBko="
+}

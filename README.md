@@ -24,3 +24,18 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
 - [Next.js](https://nextjs.org/learn)
+
+
+
+<!-- Prisma code -->
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
