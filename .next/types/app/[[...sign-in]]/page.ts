@@ -1,4 +1,4 @@
-// File: /home/y-collines-s-k/Desktop/Dashboard_UI/src/app/[[...sign-in]]/page.tsx
+// File: /home/y-collines-s-k/Desktop/next-dashboard-ui/src/app/[[...sign-in]]/page.tsx
 import * as entry from '../../../../src/app/[[...sign-in]]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,8 @@
 {
-  "/[[...sign-in]]/page": "app/[[...sign-in]]/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(dashboard)/list/exams/page": "app/(dashboard)/list/exams/page.js",
+  "/(dashboard)/teacher/page": "app/(dashboard)/teacher/page.js",
+  "/(dashboard)/list/teachers/page": "app/(dashboard)/list/teachers/page.js",
+  "/(dashboard)/list/announcements/page": "app/(dashboard)/list/announcements/page.js",
+  "/(dashboard)/list/assignments/page": "app/(dashboard)/list/assignments/page.js"
 }

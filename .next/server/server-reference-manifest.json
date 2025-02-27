@@ -1,38 +1,94 @@
 {
   "node": {
-    "c19a3aa06bc6e0f797034f732b3fa3ee6dc3c36a": {
+    "0c9a69b2343dc996a364df4e96a15caaac991c5f": {
       "workers": {
-        "app/[[...sign-in]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2FDashboard_UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!"
+        "app/[[...sign-in]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/exams/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/teacher/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/teachers/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/announcements/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/assignments/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/[[...sign-in]]/page": "rsc"
+        "app/[[...sign-in]]/page": "rsc",
+        "app/(dashboard)/admin/page": "rsc",
+        "app/(dashboard)/list/exams/page": "rsc",
+        "app/(dashboard)/teacher/page": "rsc",
+        "app/(dashboard)/list/teachers/page": "rsc",
+        "app/(dashboard)/list/announcements/page": "rsc",
+        "app/(dashboard)/list/assignments/page": "rsc",
+        "app/_not-found/page": "rsc"
       }
     },
-    "c945533de4fd65656f68a01f4b0b29538b6b0bcf": {
+    "2c31bdaf46eddaa99d0799da0580a452eac51906": {
       "workers": {
-        "app/[[...sign-in]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2FDashboard_UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!"
+        "app/[[...sign-in]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/exams/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/teacher/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/teachers/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/announcements/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/assignments/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/[[...sign-in]]/page": "rsc"
+        "app/[[...sign-in]]/page": "rsc",
+        "app/(dashboard)/admin/page": "rsc",
+        "app/(dashboard)/list/exams/page": "rsc",
+        "app/(dashboard)/teacher/page": "rsc",
+        "app/(dashboard)/list/teachers/page": "rsc",
+        "app/(dashboard)/list/announcements/page": "rsc",
+        "app/(dashboard)/list/assignments/page": "rsc",
+        "app/_not-found/page": "rsc"
       }
     },
-    "f6a128a8aee0f58a7258c93820f133bf1a8f2c5d": {
+    "6bacd207fb2782b308f83f3e07efc09f6799f18e": {
       "workers": {
-        "app/[[...sign-in]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2FDashboard_UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%5D&__client_imported__=!"
+        "app/[[...sign-in]]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/exams/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/teacher/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/teachers/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/announcements/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/list/assignments/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/_not-found/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22deleteKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22createOrReadKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/[[...sign-in]]/page": "rsc"
+        "app/[[...sign-in]]/page": "rsc",
+        "app/(dashboard)/admin/page": "rsc",
+        "app/(dashboard)/list/exams/page": "rsc",
+        "app/(dashboard)/teacher/page": "rsc",
+        "app/(dashboard)/list/teachers/page": "rsc",
+        "app/(dashboard)/list/announcements/page": "rsc",
+        "app/(dashboard)/list/assignments/page": "rsc",
+        "app/_not-found/page": "rsc"
       }
     },
-    "362305b198ce373833fa4d59a8a999cee3487399": {
+    "10fa1b59993c774448d8982525f72e6b295bead2": {
       "workers": {
-        "app/[[...sign-in]]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2FDashboard_UI%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+        "app/[[...sign-in]]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/list/exams/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/teacher/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/list/teachers/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/list/announcements/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/list/assignments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/_not-found/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fy-collines-s-k%2FDesktop%2Fnext-dashboard-ui%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[[...sign-in]]/page": "action-browser"
+        "app/[[...sign-in]]/page": "action-browser",
+        "app/(dashboard)/admin/page": "action-browser",
+        "app/(dashboard)/list/exams/page": "action-browser",
+        "app/(dashboard)/teacher/page": "action-browser",
+        "app/(dashboard)/list/teachers/page": "action-browser",
+        "app/(dashboard)/list/announcements/page": "action-browser",
+        "app/(dashboard)/list/assignments/page": "action-browser",
+        "app/_not-found/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "glOvc1aQyb6uqAyOX3JXi6UoAcORpC+pJTnXN8RkBko="
+  "encryptionKey": "s3R6Qv+uHMZTLDWNZ9jJ09+7wX1QfFzbfktfqyRWxLk="
 }
