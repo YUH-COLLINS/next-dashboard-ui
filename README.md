@@ -1,4 +1,4 @@
-# Lama Dev School Management Dashboard
+#COLLINS Dev School Management Dashboard
 
 ## Getting Started
 
@@ -18,16 +18,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Learn More
+```````.env variables
 
-To learn more about Next.js, take a look at the following resources:
+DATABASE_URL="postgresql://POSTGRES_USERNAME:POSTGRES_PASSWORD@localhost:5432/POSTGRES_DB"
 
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+# NEXT_PUBLIC_CLERK_SIGN_IN_URL=/
 
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+NEXT_PUBLIC_CLOUDINARY_API_KEY=
 
-
-<!-- Prisma code -->
+```````
 
 generator client {
   provider = "prisma-client-js"
