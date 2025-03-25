@@ -6,6 +6,12 @@ import {
   deleteStudent,
   deleteSubject,
   deleteTeacher,
+  deleteAttendance,
+  deleteLesson,
+  deleteAssignment,
+  deleteResult,
+  deleteEvent,
+  deleteAnnouncement,
 } from "@/lib/actions";
 import dynamic from "next/dynamic";
 import Image from "next/image";
@@ -15,27 +21,22 @@ import { useFormState } from "react-dom";
 import { toast } from "react-toastify";
 import { FormContainerProps } from "./FormContainer";
 
+// Map delete actions for each table
 const deleteActionMap = {
   subject: deleteSubject,
   class: deleteClass,
   teacher: deleteTeacher,
   student: deleteStudent,
   exam: deleteExam,
-// TODO: OTHER DELETE ACTIONS
-  parent: deleteSubject,
-  lesson: deleteSubject,
-  assignment: deleteSubject,
-  result: deleteSubject,
-  attendance: deleteSubject,
-  event: deleteSubject,
-  announcement: deleteSubject,
+  attendance: deleteAttendance,
+  lesson: deleteLesson,
+  assignment: deleteAssignment,
+  result: deleteResult,
+  event: deleteEvent,
+  announcement: deleteAnnouncement,
 };
 
-// USE LAZY LOADING
-
-// import TeacherForm from "./forms/TeacherForm";
-// import StudentForm from "./forms/StudentForm";
-
+// Lazy load forms for better performance
 const TeacherForm = dynamic(() => import("./forms/TeacherForm"), {
   loading: () => <h1>Loading...</h1>,
 });
@@ -51,8 +52,26 @@ const ClassForm = dynamic(() => import("./forms/ClassForm"), {
 const ExamForm = dynamic(() => import("./forms/ExamForm"), {
   loading: () => <h1>Loading...</h1>,
 });
-// TODO: OTHER FORMS
+const EventForm = dynamic(() => import("./forms/EventForm"), {
+  loading: () => <h1>Loading...</h1>,
+});
+const AttendanceForm = dynamic(() => import("./forms/AttendanceForm"), {
+  loading: () => <h1>Loading...</h1>,
+});
+const LessonForm = dynamic(() => import("./forms/LessonForm"), {
+  loading: () => <h1>Loading...</h1>,
+});
+const AssignmentForm = dynamic(() => import("./forms/AssignmentForm"), {
+  loading: () => <h1>Loading...</h1>,
+});
+const ResultForm = dynamic(() => import("./forms/ResultForm"), {
+  loading: () => <h1>Loading...</h1>,
+});
+const AnnouncementForm = dynamic(() => import("./forms/AnnouncementForm"), {
+  loading: () => <h1>Loading...</h1>,
+});
 
+// Map forms for each table
 const forms: {
   [key: string]: (
     setOpen: Dispatch<SetStateAction<boolean>>,
@@ -100,7 +119,53 @@ const forms: {
       setOpen={setOpen}
       relatedData={relatedData}
     />
-    // TODO OTHER LIST ITEMS
+  ),
+  event: (setOpen, type, data, relatedData) => (
+    <EventForm
+      type={type}
+      data={data}
+      setOpen={setOpen}
+      relatedData={relatedData}
+    />
+  ),
+  attendance: (setOpen, type, data, relatedData) => (
+    <AttendanceForm
+      type={type}
+      data={data}
+      setOpen={setOpen}
+      relatedData={relatedData}
+    />
+  ),
+  lesson: (setOpen, type, data, relatedData) => (
+    <LessonForm
+      type={type}
+      data={data}
+      setOpen={setOpen}
+      relatedData={relatedData}
+    />
+  ),
+  assignment: (setOpen, type, data, relatedData) => (
+    <AssignmentForm
+      type={type}
+      data={data}
+      setOpen={setOpen}
+      relatedData={relatedData}
+    />
+  ),
+  result: (setOpen, type, data, relatedData) => (
+    <ResultForm
+      type={type}
+      data={data}
+      setOpen={setOpen}
+      relatedData={relatedData}
+    />
+  ),
+  announcement: (setOpen, type, data, relatedData) => (
+    <AnnouncementForm
+      type={type}
+      data={data}
+      setOpen={setOpen}
+    />
   ),
 };
 

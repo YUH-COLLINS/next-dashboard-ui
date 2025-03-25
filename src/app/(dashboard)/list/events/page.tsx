@@ -15,42 +15,18 @@ const EventListPage = async ({
 }: {
   searchParams: { [key: string]: string | undefined };
 }) => {
-
   const { userId, sessionClaims } = auth();
   const role = (sessionClaims?.metadata as { role?: string })?.role;
   const currentUserId = userId;
 
   const columns = [
-    {
-      header: "Title",
-      accessor: "title",
-    },
-    {
-      header: "Class",
-      accessor: "class",
-    },
-    {
-      header: "Date",
-      accessor: "date",
-      className: "hidden md:table-cell",
-    },
-    {
-      header: "Start Time",
-      accessor: "startTime",
-      className: "hidden md:table-cell",
-    },
-    {
-      header: "End Time",
-      accessor: "endTime",
-      className: "hidden md:table-cell",
-    },
+    { header: "Title", accessor: "title" },
+    { header: "Class", accessor: "class" },
+    { header: "Date", accessor: "date", className: "hidden md:table-cell" },
+    { header: "Start Time", accessor: "startTime", className: "hidden md:table-cell" },
+    { header: "End Time", accessor: "endTime", className: "hidden md:table-cell" },
     ...(role === "admin"
-      ? [
-          {
-            header: "Actions",
-            accessor: "action",
-          },
-        ]
+      ? [{ header: "Actions", accessor: "action" }]
       : []),
   ];
 
@@ -62,17 +38,17 @@ const EventListPage = async ({
       <td className="flex items-center gap-4 p-4">{item.title}</td>
       <td>{item.class?.name || "-"}</td>
       <td className="hidden md:table-cell">
-        {new Intl.DateTimeFormat("en-US").format(item.startTime)}
+        {new Intl.DateTimeFormat("en-US").format(new Date(item.startTime))}
       </td>
       <td className="hidden md:table-cell">
-        {item.startTime.toLocaleTimeString("en-US", {
+        {new Date(item.startTime).toLocaleTimeString("en-US", {
           hour: "2-digit",
           minute: "2-digit",
           hour12: false,
         })}
       </td>
       <td className="hidden md:table-cell">
-        {item.endTime.toLocaleTimeString("en-US", {
+        {new Date(item.endTime).toLocaleTimeString("en-US", {
           hour: "2-digit",
           minute: "2-digit",
           hour12: false,
@@ -96,7 +72,6 @@ const EventListPage = async ({
   const p = page ? parseInt(page) : 1;
 
   // URL PARAMS CONDITION
-
   const query: Prisma.EventWhereInput = {};
 
   if (queryParams) {
@@ -114,7 +89,6 @@ const EventListPage = async ({
   }
 
   // ROLE CONDITIONS
-
   const roleConditions = {
     teacher: { lessons: { some: { teacherId: currentUserId! } } },
     student: { students: { some: { id: currentUserId! } } },
